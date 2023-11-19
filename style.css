@@ -1,0 +1,35 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url(/fundo.png);
+  background-size: cover; /* Para cobrir todo o espaço do body */
+  background-repeat: repeat; /* Evita a repetição da imagem */
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-top: 0px;
+}
+
+.itens {
+  background: plum;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+  gap: 5px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+a {
+  background: pink;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px;
+}
